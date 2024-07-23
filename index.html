@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ACTIVITAR</title>
+    <!-- 
+    Loader/Refresh -->
+    <script>
+      window.addEventListener("load", function () {
+        const el = document.querySelector(".loaderSite");
+
+        const myTimeout = setTimeout(myGreeting, 800);
+        function myGreeting() {
+          el.classList.add("hideLoader");
+        }
+      });
+    </script>
+    <!-- 
+    Loader/Refresh -->
+  </head>
+
+  <body>
+    <!-- Loader/Refresh -->
+    <div class="loaderSite">
+      <div class="loader"></div>
+    </div>
+    <!-- 
+    Loader/Refresh -->
+    <header class="Header">
+      <div class="header">
+        <div class="header-logo">
+          <img src="/images/logo.png.webp" alt="logo" />
+        </div>
+        <div class="header-ul">
+          <ul>
+            <li>
+              <a href="">HOME</a>
+            </li>
+            <li>
+              <a href="">ABOUT US</a>
+            </li>
+            <li>
+              <a href="">SCHEDULE</a>
+            </li>
+            <li>
+              <a href="">GALLERY</a>
+            </li>
+            <li>
+              <a href="">BLOG</a>
+            </li>
+            <li>
+              <a href="">CONTACTS</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-icons">
+          <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </header>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div
+          class="readmore-btninfo swiper-slide"
+          style="background-image: url(/images/hero-1.jpg.webp)"
+        >
+          <div class="readmore-btnflex">
+            <div>
+              <h2>JOIN US NOW</h2>
+              <h1>FITNESS & SPORT</h1>
+              <div class="readmore-btn">
+                <button>READMORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="readmore-btninfo swiper-slide"
+          style="background-image: url(/images/hero-2.jpg.webp)"
+        >
+          <div class="readmore-btnflex">
+            <div>
+              <h2>JOIN US NOW</h2>
+              <h1>FITNESS & SPORT</h1>
+              <div class="readmore-btn">
+                <button>READMORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="readmore-btninfo swiper-slide"
+          style="background-image: url(/images/hero-3.jpg.webp)"
+        >
+          <div class="readmore-btnflex">
+            <div>
+              <h2>JOIN US NOW</h2>
+              <h1>FITNESS & SPORT</h1>
+              <div class="readmore-btn">
+                <button>READMORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

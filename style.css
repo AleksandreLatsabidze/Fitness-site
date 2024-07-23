@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.Header {
+  position: absolute;
+  z-index: 2;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 30px;
+  align-items: center;
+}
+.header-ul ul li {
+  display: inline-block;
+  margin: 0px 25px;
+  font-size: 13px;
+  font-weight: 1000;
+}
+.header-ul ul li a {
+  color: #ffffff;
+  font-family: sans-serif;
+  transition-delay: 0.1s;
+}
+
+.header-ul ul li a:hover {
+  color: red;
+  border-bottom: 2px solid red;
+}
+.header-icons a {
+  margin: 0px 8px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.readmore-btninfo h1,
+h2 {
+  color: #fff;
+}
+.readmore-btninfo h1 {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.readmore-btninfo h2 {
+  font-weight: 400;
+  font-family: system-ui;
+  margin-bottom: 10px;
+}
+.readmore-btninfo {
+  font-size: 40px;
+  text-align: center;
+  background-size: cover;
+}
+.readmore-btnflex {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.readmore-btn button {
+  padding: 13px 30px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 800;
+  border: 2px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.readmore-btn button:hover {
+  background-color: red;
+}
+.swiper-pagination-bullet-active {
+  background: var(--swiper-pagination-color, #ffffff);
+}
+.swiper-pagination-bullet {
+  width: 13px !important;
+  height: 13px !important;
+  background: var(--swiper-pagination-bullet-inactive-color, #fff);
+  opacity: 1;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff !important;
+  --swiper-navigation-size: 30px;
+  font-weight: 1000;
+}
+.swiper-button-next {
+  right: var(--swiper-navigation-sides-offset, 160px);
+}
+
+.swiper-button-prev {
+  left: var(--swiper-navigation-sides-offset, 160px);
+}
+.mySwiper {
+  height: 100vh;
+}
+/* animation */
+.readmore-btnflex h2 {
+  position: relative;
+  top: 20px;
+  transition-delay: 0.3s;
+  transition-duration: 0.7s;
+  opacity: 0;
+}
+.swiper-slide-active .readmore-btnflex h2 {
+  position: relative;
+  top: 0px;
+  opacity: 1;
+}
+.readmore-btnflex h1 {
+  position: relative;
+  top: 20px;
+  transition-delay: 0.4s;
+  transition-duration: 0.7s;
+  opacity: 0;
+}
+.swiper-slide-active .readmore-btnflex h1 {
+  position: relative;
+  top: 0px;
+  opacity: 1;
+}
+.readmore-btnflex button {
+  position: relative;
+  top: 20px;
+  transition-delay: 0.5s;
+  transition-duration: 0.7s;
+  opacity: 0;
+}
+.swiper-slide-active .readmore-btnflex button {
+  position: relative;
+  top: 0px;
+  opacity: 1;
+}
+
+/* animation end */
+
+.swiper-pagination-bullet-active {
+  background-color: red;
+}
+/* Loader/Refresh */
+.loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #f81d00;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 0.4s linear infinite; /* Safari */
+  animation: spin 0.4s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loaderSite {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s;
+}
+.hideLoader {
+  opacity: 0;
+  visibility: hidden;
+}
+/* Loader/Refresh  */
+
+.swiper-slide:active {
+  cursor: -webkit-grab;
+}
