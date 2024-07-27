@@ -197,3 +197,110 @@ h2 {
 .swiper-slide:active {
   cursor: -webkit-grab;
 }
+.sportInfo {
+  display: flex;
+  text-align: center;
+}
+.sports {
+  width: 100%;
+  max-height: 351px;
+}
+.spHeight {
+  max-height: 470px;
+}
+.sportsTitle {
+  padding: 95px 0px;
+}
+.sportInfo h1 {
+  color: #fff;
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+}
+.sportInfo span {
+  display: block;
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.sports:hover {
+  border-bottom: 5px solid red;
+  transition: all 0.2s;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0px 10px;
+}
+.crossfitBGround {
+  background-color: #151515;
+}
+.crossIntoDiv {
+  width: 50%;
+  padding: 0px 10px;
+}
+.crossfitPG {
+  display: flex;
+  padding: 100px 0px;
+}
+.crossfitpgTxt h1 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: system-ui;
+  margin-bottom: 36px;
+}
+.crossfitpgTxt h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding-right: 79px;
+}
+.crossfitpgTxt p {
+  color: #fff;
+  font-size: 16px;
+  padding-right: 72px;
+  margin-bottom: 40px;
+  line-height: 21px;
+}
+.crossfitpgTxt button {
+  padding: 14px 29px;
+  background-color: red;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+.classesBG {
+  background-image: url(images/classes-title-bg.jpg.webp);
+}
+.classesDiv {
+  padding: 45px 0px;
+}
+.classesDiv h1 {
+  color: #fff;
+  font-weight: 1000;
+  font-family: sans-serif;
+  font-size: 48px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.classesDiv p {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.classesImg {
+  padding: 155px 0px;
+  margin-left: 60px;
+  text-align: left;
+}
+.classesImg h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
