@@ -343,7 +343,7 @@ table {
 th,
 td {
   text-align: center;
-  padding: 26px;
+
   border: 2px solid #1f1f1f;
   color: #fff;
   font-family: sans-serif;
@@ -351,6 +351,7 @@ td {
 .bld {
   font-weight: bold;
   font-size: 19px;
+  padding: 26px;
 }
 th {
   background-color: #212121;
@@ -372,4 +373,22 @@ th {
 }
 .table {
   padding: 15px 0px;
+  overflow-x: auto;
+}
+.Dnone:hover {
+  background-color: #fd7e14;
+}
+.Dnone {
+  padding: 26px;
+  height: 104px;
+}
+#filterTable th {
+  padding: 26px;
+}
+#filterTable td {
+  height: 104px;
+  width: 146px;
+}
+#filterTable {
+  height: 601.17px;
 }

@@ -24,7 +24,7 @@
       window.addEventListener("load", function () {
         const el = document.querySelector(".loaderSite");
 
-        const myTimeout = setTimeout(myGreeting, 800);
+        const myTimeout = setTimeout(myGreeting, 200);
         function myGreeting() {
           el.classList.add("hideLoader");
         }
@@ -262,37 +262,31 @@
           <h2>CLASSTIME TABLE</h2>
           <ul id="myUL" id="myBtnContainer">
             <li>
-              <a href="#" class="nav-link filter-link" data-filter="all"
+              <a href="#" class="nav-link filter-link" data-filter="1"
                 >ALL CLASS</a
               >
             </li>
             <li>
-              <a href="#" class="nav-link filter-link" data-filter="crossfit"
+              <a href="#" class="nav-link filter-link" data-filter="2"
                 >CROSSFIT</a
               >
             </li>
             <li>
-              <a href="#" class="nav-link filter-link" data-filter="lungeball"
+              <a href="#" class="nav-link filter-link" data-filter="3"
                 >LUNGE BALL</a
               >
             </li>
             <li>
-              <a href="#" class="nav-link filter-link" data-filter="ppsr"
-                >PPSR</a
-              >
+              <a href="#" class="nav-link filter-link" data-filter="4">PPSR</a>
             </li>
             <li>
-              <a href="#" class="nav-link filter-link" data-filter="walls"
-                >WALLS</a
-              >
+              <a href="#" class="nav-link filter-link" data-filter="5">WALLS</a>
             </li>
             <li>
-              <a href="#" class="nav-link filter-link" data-filter="candy"
-                >CANDY</a
-              >
+              <a href="#" class="nav-link filter-link" data-filter="6">CANDY</a>
             </li>
           </ul>
-          <div class="table table-container">
+          <div class="table">
             <table id="filterTable">
               <thead>
                 <tr>
@@ -309,115 +303,157 @@
               <tbody>
                 <tr>
                   <td class="bld">10.00</td>
-                  <td class="filterDiv crossfit">
-                    10.00 - 14.00<br />
-                    <span class="red">CROSSFIT LV1</span>
-                  </td>
-                  <td></td>
-                  <td class="filterDiv crossfit">
-                    10.00 - 15.00<br />
-                    <span class="red">CROSSFIT LV1</span>
+                  <td>
+                    <div class="Dnone filter-2">
+                      10.00 - 14.00<br />
+                      <span class="red">CROSSFIT LV1</span>
+                    </div>
                   </td>
                   <td></td>
                   <td>
-                    10.00 - 13.00<br />
-                    <span class="red">LUNGE BALL BUR</span>
+                    <div class="Dnone filter-2">
+                      10.00 - 15.00<br />
+                      <span class="red">CROSSFIT LV1</span>
+                    </div>
                   </td>
                   <td></td>
                   <td>
-                    10.00 - 13.30<br />
-                    <span class="red">LUNGE BALL BUR</span>
+                    <div class="Dnone filter-3">
+                      10.00 - 13.00<br />
+                      <span class="red">LUNGE BALL BUR</span>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div class="Dnone filter-4">
+                      10.00 - 13.30<br />
+                      <span class="red">LUNGE BALL BUR</span>
+                    </div>
                   </td>
                 </tr>
                 <tr>
                   <td class="bld">14.00</td>
                   <td></td>
                   <td>
-                    14.00 - 17.00<br />
-                    <span class="red">LUNGE BALL BUR</span>
-                  </td>
-                  <td></td>
-                  <td class="filterDiv crossfit">
-                    14.00 - 17.00<br />
-                    <span class="red">CROSSFIT LV1</span>
+                    <div class="Dnone filter-3">
+                      14.00 - 17.00<br />
+                      <span class="red">LUNGE BALL BUR</span>
+                    </div>
                   </td>
                   <td></td>
                   <td>
-                    14.00 - 15.30<br />
-                    <span class="red">WALLS TO KNEES</span>
+                    <div class="Dnone filter-2">
+                      14.00 - 17.00<br />
+                      <span class="red">CROSSFIT LV1</span>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div class="Dnone filter-4">
+                      14.00 - 15.30<br />
+                      <span class="red">WALLS TO KNEES</span>
+                    </div>
                   </td>
                   <td></td>
                 </tr>
                 <tr>
                   <td class="bld">16.00</td>
                   <td>
-                    16.00 - 18.00<br />
-                    <span class="red">LUNGE BALL BUR</span>
+                    <div class="Dnone filter-3">
+                      16.00 - 18.00<br />
+                      <span class="red crossfit-2">LUNGE BALL BUR</span>
+                    </div>
                   </td>
                   <td></td>
                   <td>
-                    16.00 - 19.00<br />
-                    <span class="red">CANDY</span>
+                    <div class="Dnone filter-6">
+                      16.00 - 19.00<br />
+                      <span class="red">CANDY</span>
+                    </div>
                   </td>
                   <td></td>
                   <td>
-                    16.00 - 19.00<br />
-                    <span class="red">CANDY</span>
+                    <div class="Dnone filter-2">
+                      16.00 - 19.00<br />
+                      <span class="red">CANDY</span>
+                    </div>
                   </td>
                   <td>
-                    16.00 - 17.00<br />
-                    <span class="red">PPSR</span>
+                    <div class="Dnone filter-6">
+                      16.00 - 17.00<br />
+                      <span class="red">PPSR</span>
+                    </div>
                   </td>
                   <td>
-                    16.00 - 20.00<br />
-                    <span class="red">MURPH</span>
+                    <div class="Dnone filter-4">
+                      16.00 - 20.00<br />
+                      <span class="red">MURPH</span>
+                    </div>
                   </td>
                 </tr>
                 <tr>
                   <td class="bld">18.00</td>
                   <td>
-                    18.00 - 20.00<br />
-                    <span class="red">WALLS TO KNEES</span>
+                    <div class="Dnone filter-2">
+                      18.00 - 20.00<br />
+                      <span class="red crossfit-2">WALLS TO KNEES</span>
+                    </div>
                   </td>
                   <td>
-                    18.00 - 20.00<br />
-                    <span class="red">PPSR</span>
+                    <div class="Dnone filter-5">
+                      18.00 - 20.00<br />
+                      <span class="red">PPSR</span>
+                    </div>
                   </td>
                   <td></td>
                   <td>
-                    18.00 - 22.00<br />
-                    <span class="red">CHELSEA</span>
+                    <div class="Dnone filter-4">
+                      18.00 - 22.00<br />
+                      <span class="red">CHELSEA</span>
+                    </div>
                   </td>
                   <td></td>
                   <td>
-                    18.00 - 22.00<br />
-                    <span class="red">ANNIE</span>
+                    <div class="Dnone filter-6">
+                      18.00 - 22.00<br />
+                      <span class="red">ANNIE</span>
+                    </div>
                   </td>
                   <td></td>
                 </tr>
                 <tr>
                   <td class="bld">20.00</td>
                   <td>
-                    21.00 - 23.00<br />
-                    <span class="red">LUNGE BALL BUR</span>
+                    <div class="Dnone filter-5">
+                      21.00 - 23.00<br />
+                      <span class="red">LUNGE BALL BUR</span>
+                    </div>
                   </td>
                   <td>
-                    20.00 - 22.00<br />
-                    <span class="red">WALLS TO KNEES</span>
+                    <div class="Dnone filter-6">
+                      20.00 - 22.00<br />
+                      <span class="red">WALLS TO KNEES</span>
+                    </div>
                   </td>
                   <td>
-                    20.30 - 23.00<br />
-                    <span class="red">WALLS TO KNEES</span>
+                    <div class="Dnone filter-5">
+                      20.30 - 23.00<br />
+                      <span class="red">WALLS TO KNEES</span>
+                    </div>
                   </td>
                   <td></td>
-                  <td class="filterDiv crossfit">
-                    22.00 - 23.00<br />
-                    <span class="red">CROSSFIT LV2</span>
+                  <td>
+                    <div class="Dnone filter-5">
+                      22.00 - 23.00<br />
+                      <span class="red">CROSSFIT LV2</span>
+                    </div>
                   </td>
                   <td></td>
-                  <td class="filterDiv crossfit">
-                    21.00 - 23.00<br />
-                    <span class="red">CROSSFIT LV2</span>
+                  <td>
+                    <div class="Dnone filter-6">
+                      21.00 - 23.00<br />
+                      <span class="red">CROSSFIT LV2</span>
+                    </div>
                   </td>
                 </tr>
               </tbody>

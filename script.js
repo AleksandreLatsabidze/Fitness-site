@@ -25,32 +25,35 @@ for (var i = 0; i < links.length; i++) {
     this.classList.add("active");
   });
 }
-//****************************************************
-// document.querySelectorAll(".filter-link").forEach((link) => {
-//   link.addEventListener("click", function (e) {
-//     e.preventDefault();
-//     filterSelection(this.getAttribute("data-filter"));
-//   });
-// });
+//******************FilterTable**********************************
+var getClassName = function () {
+  document.onclick = function (e) {
+    if (e.target.classList.contains("filter-link")) {
+      var className = e.target.getAttribute("data-filter");
+      // Alert the value
 
-// function filterSelection(filter) {
-//   var rows = document.querySelectorAll("#filterTable .filterDiv");
-//   rows.forEach((row) => {
-//     if (filter === "all" || row.classList.contains(filter)) {
-//       row.classList.remove("hidden");
-//     } else {
-//       row.classList.add("hidden");
-//     }
-//   });
+      if (className == "1") {
+        var elements = document.querySelectorAll(".Dnone");
 
-//   updateActiveLink(filter);
-// }
+        elements.forEach(function (element) {
+          element.style.display = "block";
+        });
+      } else {
+        var elements = document.querySelectorAll(".Dnone");
 
-// function updateActiveLink(filter) {
-//   document.querySelectorAll(".filter-link").forEach((link) => {
-//     link.classList.toggle(
-//       "active",
-//       link.getAttribute("data-filter") === filter
-//     );
-//   });
-// }
+        elements.forEach(function (element) {
+          element.style.display = "none";
+        });
+      }
+
+      var elements1 = document.querySelectorAll(".filter-" + className);
+
+      elements1.forEach(function (element2) {
+        element2.style.display = "block";
+      });
+    }
+  };
+};
+
+getClassName();
+// ******************FilterTable*********************************
