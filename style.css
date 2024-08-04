@@ -392,3 +392,161 @@ th {
 #filterTable {
   height: 601.17px;
 }
+.switch {
+  --false: #fff;
+  --true: #fff;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  height: 2rem;
+  width: 4.5rem;
+  background-color: #8d5c5cd6;
+  position: relative;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  display: block;
+  height: 31px;
+  width: 31px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: calc(1.9em / 2 + 0.3em);
+  background-color: var(--false);
+  border-radius: 0.2em;
+  transition: 0.3s ease;
+}
+
+input[type="checkbox"]:checked::before {
+  background-color: var(--true);
+  left: calc(100% - (1.9em / 2 + 0.3em));
+}
+.pricingSect {
+  padding: 90px 0px;
+}
+.pricingTitle h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.pricingTitle h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  width: 639px;
+  margin: 0 auto;
+  font-weight: 100;
+  margin-bottom: 36px;
+}
+.switchB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.monthly span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  margin-right: 10px;
+}
+.years span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.schedule {
+  width: 370px;
+  background-color: #fff;
+  padding: 52px 0px;
+  overflow: hidden;
+}
+.shceduleT {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.shceduleT h1 {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: system-ui;
+  margin-bottom: 30px;
+  color: #272727;
+}
+.shceduleT h2 {
+  color: #272727;
+  font-size: 48px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: fantasy;
+}
+.shceduleT h2 span {
+  color: #272727;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+.shceduleT span {
+  display: block;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #272727;
+}
+.scheduleList ul li {
+  font-size: 15px;
+  font-weight: 500;
+  color: #272727;
+  line-height: 42px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.scheduleBtn {
+  padding: 13px 30px;
+  background-color: transparent;
+  color: #e16521;
+  font-weight: 800;
+  border: 2px solid #e16521;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.btnCntr {
+  text-align: center;
+  margin-top: 30px;
+}
+.scheduleBtn:hover {
+  background-color: #e16521;
+  color: #fff;
+}
+.pricings {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.starP {
+  position: relative;
+}
+.starIcon {
+  width: 160px;
+  height: 40px;
+  background: #e4381c;
+  position: absolute;
+  right: -66px;
+  top: -6px;
+  transform: rotate(45deg);
+}
+.schedule .starIcon i {
+  position: absolute;
+  left: 69px;
+  top: 15px;
+  color: #ffffff;
+}
