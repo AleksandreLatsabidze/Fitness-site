@@ -222,6 +222,8 @@ h2 {
   color: #fff;
   margin-bottom: 25px;
   font-size: 18px;
+  height: 60px;
+  overflow: hidden;
 }
 
 .sports:hover {
@@ -240,6 +242,7 @@ h2 {
 .crossIntoDiv {
   width: 50%;
   padding: 0px 10px;
+  overflow: hidden;
 }
 .crossfitPG {
   display: flex;
@@ -574,6 +577,7 @@ span {
 .supportItems {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 .Sitem {
   margin-bottom: 40px;
@@ -599,4 +603,43 @@ span {
     text-transform: uppercase;
     text-align: center;
     padding: 240px 0px 240px;
+}
+.ourBlog{
+  background-color: #151515;
+  padding: 90px 0px;
+}
+.blogTitle h1{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 50px;
+  margin-bottom: 18px;
+  color: white;
+}
+.blogTitle p{
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.CrossfitInsideDiv{
+  background-color: #e47d1c;
+  padding: 60px 30px;
+  box-sizing: border-box;
+  font-size: 11px;
+  font-family: cursive;
+}
+.insideIcon{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 9px;
+}
+.insideIcon p{
+  color: white;
+  font-size: 17px;
+  font-family: fangsong;
+}
+.insideIcon  ion-icon {
+  font-size: 20px;
+}
+.blogTitle{
+  margin-bottom: 35px;
 }
