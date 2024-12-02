@@ -591,55 +591,161 @@ span {
   font-weight: 1000;
   font-family: sans-serif;
 }
-.Sitem p{
+.Sitem p {
   color: #7b7b7b;
   width: 264px;
 }
 
-.GymSct h1{
+.GymSct h1 {
   font-size: 55px;
-    color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 240px 0px 240px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 240px 0px 240px;
 }
-.ourBlog{
+.ourBlog {
   background-color: #151515;
   padding: 90px 0px;
 }
-.blogTitle h1{
+.blogTitle h1 {
   text-align: center;
   font-family: fantasy;
   font-size: 50px;
   margin-bottom: 18px;
   color: white;
 }
-.blogTitle p{
+.blogTitle p {
   color: #ffffff;
   text-align: center;
   letter-spacing: 1px;
 }
-.CrossfitInsideDiv{
+.CrossfitInsideDiv {
   background-color: #e47d1c;
   padding: 60px 30px;
   box-sizing: border-box;
   font-size: 11px;
   font-family: cursive;
 }
-.insideIcon{
+.insideIcon {
   display: flex;
   justify-content: space-between;
   padding-bottom: 9px;
 }
-.insideIcon p{
+.insideIcon p {
   color: white;
   font-size: 17px;
   font-family: fangsong;
 }
-.insideIcon  ion-icon {
+.insideIcon ion-icon {
   font-size: 20px;
 }
-.blogTitle{
+.blogTitle {
   margin-bottom: 35px;
+}
+.last-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  align-items: center;
+}
+.last-section {
+  background-color: #e47d1c;
+}
+.left-text h1 {
+  color: #ffff;
+  font-size: 25px;
+  font-family: system-ui;
+  margin-bottom: 10px;
+}
+.left-text p {
+  color: #ffff;
+  font-size: 17px;
+}
+.right-btn button {
+  padding: 14px 39px;
+  color: #fff;
+  background-color: #e47d1c;
+  border: 2px solid #ffff;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 1000;
+  cursor: pointer;
+}
+.map{
+  position: relative;
+}
+.map-form {
+  width: 420px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  padding: 35px;
+  position: absolute;
+  top: 80px;
+  right: 80px;
+}
+.hours {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.hours h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: system-ui;
+  color: black;
+}
+.weekday ul li span{
+  color: black;
+  margin-left: 15px;
+}
+.last-time{
+  margin-left: 24px !important;
+}
+FORM H3{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: system-ui;
+  color: black;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.form-group input{
+  padding: 11px 0px;
+  padding-left: 4px;
+}
+.form-group 
+textarea {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+textarea {
+  resize: none;
+  height: 100px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  background-color: transparent;
+  border: 2px solid #f00;
+  border-radius: 5px;
+  cursor: pointer;
 }
