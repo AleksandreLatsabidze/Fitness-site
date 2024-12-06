@@ -690,7 +690,7 @@ span {
   justify-content: space-between;
 }
 .hours h3 {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 10px;
@@ -705,7 +705,7 @@ span {
   margin-left: 24px !important;
 }
 FORM H3{
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 10px;
@@ -724,6 +724,7 @@ form {
 .form-group input{
   padding: 11px 0px;
   padding-left: 4px;
+  outline: none;
 }
 .form-group 
 textarea {
@@ -740,7 +741,7 @@ textarea {
 }
 button {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   color: #000;
@@ -748,4 +749,90 @@ button {
   border: 2px solid #f00;
   border-radius: 5px;
   cursor: pointer;
+}
+.footerFlex{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+.footerBG{
+  background-color: #151515;
+}
+.networkIcons i {
+  color: #fff;
+}
+.footerLogo p{
+  color: #FFF;
+    width: 257px;
+    margin-top: 35px;
+    line-height: 22px;
+    font-size: 18px;
+}
+.footerLogo h1{
+  color: #FFF;
+  font-size: 16px;
+  margin: 23px 0px;
+
+}
+.networkIcons{
+  letter-spacing: 12px;
+}
+.blog h5, .program h5, .info h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  color: white;
+}
+.blog h6, span{
+  margin-bottom: 20px;
+}
+.blog h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: white;
+  letter-spacing: -1px;
+}
+.blog span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.blog span i {
+  color: #ff6347;
+  margin-right: 5px;
+}
+.blog a:hover h6 {
+  color: #ff6347; 
+}
+
+.blog a:hover span {
+  color: #ffffff;
+}
+.program ul li a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.program h5{
+  margin-bottom: 23px !important;
+}
+.info ul li ion-icon{
+  color: red;
+  font-size: 23px;
+  margin-right: 10px;
+}
+.info span {
+  font-size: 17px;
+  font-weight: bold;
+
+}
+.contactInfo{
+  color: gray;
+  font-size: 17px;
+  margin-bottom: 20px;
+
 }
