@@ -836,3 +836,12 @@ button {
   margin-bottom: 20px;
 
 }
+.insideAbout{
+  position: relative;
+  bottom: 200px;
+}
+.arrowItem{
+  /* align-items: center !important; */
+  position: relative;
+  bottom: 200px;
+}
