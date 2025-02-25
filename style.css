@@ -849,3 +849,41 @@ button {
   padding: 0px 242px;
     text-align: center;
 }
+.mainImg > img{
+  width: 1170px;
+  height: 450px; 
+}
+.mainImg{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+.aboutus-txt, .quality-txt h2,p,ul li {
+  color: #FFF;
+}
+.quality-txt ul li  ion-icon{
+  color: red;
+}
+.mainimg-txts{
+  display: flex;
+  padding: 0 63px;
+  padding-bottom: 60px;
+}
+.aboutus-txt{
+  width: 50%;
+  padding-right: 15px;
+  
+}
+.quality-txt{
+  width: 50%;
+  padding-left: 15px;
+}
+.pdng-left {
+  padding-left: 0px;
+}
+.aboutus-txt > h2 {
+  font-size: 20px;
+}
+.quality-txt >h2{
+  font-size: 20px;
+}
