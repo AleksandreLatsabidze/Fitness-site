@@ -887,3 +887,32 @@ button {
 .quality-txt >h2{
   font-size: 20px;
 }
+.about-info{
+  background-image: url(/images/about.webp);
+}
+.slide-div-info{
+  padding: 122px 0px;
+}
+.into-info{
+  text-align: center;
+}
+.into-info ion-icon{
+  font-size: 25px;
+}
+.into-txt{
+  color: #fff;
+  text-align: center;
+}
+.mySwiper{
+  height: 59vh !important;
+}
+.into-txt h4{
+  padding: 0px 132px;
+}
+.swiper-pagination > .swiper-pagination-bullet{
+  background-color: #ffffff!important;
+  opacity: 10;
+}
+.swiper-pagination > .swiper-pagination-bullet-active{
+  background-color: #ff0000 !important;
+}

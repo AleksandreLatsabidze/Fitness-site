@@ -13,6 +13,10 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="bootstrap.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
     <title>ACTIVITAR</title>
   </head>
   <body>
@@ -131,20 +135,135 @@
               </li>
               <li>
                 <ion-icon name="checkmark-circle-outline"></ion-icon>
-                Integer pulvinar ante nulla, ac fermentum ex congue id vestibulum ensectetur.
+                Integer pulvinar ante nulla, ac fermentum ex congue id
+                vestibulum ensectetur.
               </li>
               <li>
                 <ion-icon name="checkmark-circle-outline"></ion-icon>
-                Proin blandit nibh in quam semper iaculis lorem ipsum dolor salama ender.
+                Proin blandit nibh in quam semper iaculis lorem ipsum dolor
+                salama ender.
               </li>
               <li>
                 <ion-icon name="checkmark-circle-outline"></ion-icon>
-                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis.
               </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
+    <section class="about-slide">
+      <div class="about-info">
+        <div class="slide-div container swiper mySwiper">
+          <div class="slide-div-info swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="into-info pb-2">
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+              </div>
+              <div class="into-txt">
+                <h4>
+                  The “Minimal-Repair Technique” is a revolutionary surgical
+                  procedure in the treatment for hernia. Initially intended for
+                  correcting inguinal hernia
+                </h4>
+              </div>
+              <div class="into-name">
+                <h5 class="text-white text-center pt-3 fs-5">
+                  Stacy Mc Neelek
+                </h5>
+                <span class="text-white d-block text-center"
+                  >CEP’s Director</span
+                >
+              </div>
+              <div class="author-pic">
+                <img class="d-block mx-auto" src="images/author.webp" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="into-info pb-2">
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+              </div>
+              <div class="into-txt">
+                <h4>
+                  The “Minimal-Repair Technique” is a revolutionary surgical
+                  procedure in the treatment for hernia. Initially intended for
+                  correcting inguinal hernia
+                </h4>
+              </div>
+              <div class="into-name">
+                <h5 class="text-white text-center pt-3 fs-5">
+                  Stacy Mc Neelek
+                </h5>
+                <span class="text-white d-block text-center"
+                  >CEP’s Director</span
+                >
+              </div>
+              <div class="author-pic">
+                <img class="d-block mx-auto" src="images/author.webp" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="into-info pb-2">
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+                <ion-icon class="text-warning" name="star"></ion-icon>
+              </div>
+              <div class="into-txt">
+                <h4>
+                  The “Minimal-Repair Technique” is a revolutionary surgical
+                  procedure in the treatment for hernia. Initially intended for
+                  correcting inguinal hernia
+                </h4>
+              </div>
+              <div class="into-name">
+                <h5 class="text-white text-center pt-3 fs-5">
+                  Stacy Mc Neelek
+                </h5>
+                <span class="text-white d-block text-center"
+                  >CEP’s Director</span
+                >
+              </div>
+              <div class="author-pic">
+                <img class="d-block mx-auto" src="images/author.webp" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        speed: 1000, 
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
