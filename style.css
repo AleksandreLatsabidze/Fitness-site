@@ -60,7 +60,7 @@ h2 {
 }
 .readmore-btnflex {
   display: flex;
-  height: 100vh;
+  height: 59vh;
   align-items: center;
   justify-content: center;
 }
