@@ -374,7 +374,7 @@ th {
   font-size: 16px;
   font-weight: bold;
 }
-.table {
+.table, .tables {
   padding: 15px 0px;
   overflow-x: auto;
 }
